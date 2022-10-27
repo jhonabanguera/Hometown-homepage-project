@@ -225,13 +225,16 @@ color: #1D3557;
 }
 
 #guide-name {
-    position: absolute;
+position: absolute;
 width: 189px;
 height: 18px;
 margin-left: 198px;
 margin-top: 192px;
 color: #1D3557;
 background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-size: 16px;
 }
 
 img {
