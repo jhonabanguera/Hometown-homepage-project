@@ -1,0 +1,263 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.hero-section {
+    position: absolute;
+    width: 720px;
+    height: 343px;
+    left: 0px;
+    top: 0px;
+    background-image: url(http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTHE0U-IyuZxZsAc8u5ifqoKh8rwSyhBK6v7P0RiWA6296m-3rXnFq-4P7wHawHXEsx);
+    background-size: cover;
+}
+
+.hero-title-container {
+    position: absolute;
+    width: 225px;
+    height: 42px;
+    left: 247px;
+    top: 119px;
+
+    background: #1D3557;
+    border-radius: 10px;
+}
+
+#hero-title {
+    position: absolute;
+    width: 201px;
+    height: 34px;
+    color: white;
+    margin: 3px 12px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+}
+ 
+.hero-subtitle-container {
+    position: absolute;
+    width: 412px;
+    height: 52px;
+    left: calc(50% - 412px/2);
+    top: calc(50% - 52px/2 + 26.5px);
+
+    background: #457B9D;
+    border-radius: 10px;
+}
+
+#hero-subtitle{
+    position: absolute;
+    width: 355px;
+    height: 39px;
+    margin: 5px 29px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.activities-section {
+    position: absolute;
+    width: 720px;
+    height: 378px;
+    left: 0px;
+    top: 343px;
+    background: #F1FAEE;
+    margin-bottom: 0px;
+}
+
+h3{
+    position: absolute;
+    width: 439px;
+    height: 20px;
+    left: 140px;
+    margin-top: 39px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #1D3557;
+}
+
+.activities-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 114px;
+}
+
+.activities-subtitle{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+#activitie_1 {
+    width: 183px;
+    height: 32px;
+    margin-left: 41px;
+    margin-top: 22.66px;
+    margin-bottom: 17px;
+}
+
+#activitie_2 {
+    width: 162px;
+    height: 35px;
+    margin-left: 59px;
+    margin-top: 18.03px;
+    margin-bottom: 16px;
+}
+
+#activitie_3 {
+    width: 197px;
+    height: 38px;
+    margin-left: 43px;
+    margin-top: 22.34px;
+    margin-bottom: 12px;
+}
+
+.activities-text {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+#text_1 {
+    width: 198px;
+    margin-top: -10px;
+    margin-left: 34px;
+}
+
+#text_2{
+    width: 198px;
+    margin-top: -10px;
+    margin-left: 33px;
+}
+
+#text_3 {
+width: 198px;
+margin-top: -10px;
+margin-left: 25px;
+
+}
+
+.guide-section {
+display: flex;
+flex-direction: column;
+width: 720px;
+height: 394px;
+left: 0px;
+top: 721px;
+margin-top: 0px;
+background: #FFFFFF;
+}
+
+.guide-container {
+display: flex;
+flex-direction: row;
+width: 400px;
+height: 294px;
+margin-left: 160px;
+margin-top: 50px;
+
+background: #A8DADC;
+box-shadow: 0px 6px 0px #1D3557;
+border-radius: 10px;
+}
+
+#guide-img {
+position: absolute;
+width: 180px;
+height: 248.67px;
+border-radius: 10px;
+margin-top: 23px;
+margin-left: 13px;
+}
+
+
+#guide-title {
+    position: absolute;
+    width: 207px;
+    margin-left: 209px;
+    margin-top: 49px;
+}
+
+#guide-text {
+    position: absolute;
+    width: 189px;
+height: 71px;
+margin-top: 95px;
+margin-left: 200px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+
+color: #1D3557;
+}
+
+#guide-name {
+    position: absolute;
+width: 189px;
+height: 18px;
+margin-left: 198px;
+margin-top: 192px;
+color: #1D3557;
+background-size: cover;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #1D3557;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #1D3557;
+}
